@@ -1,7 +1,7 @@
 ﻿{
 	"version": 1477010970,
 	"fileList": [
-		"data.js",
+		"https://cdn.jsdelivr.net/gh/crybypass/deface/RunIntoDeath/data.js",
 		"c2runtime.js",
 		"jquery-2.1.1.min.js",
 		"images/camerapoint-sheet0.png",
