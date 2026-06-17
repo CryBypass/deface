@@ -1,27 +1,27 @@
-﻿{
+{
 	"name": "RunIntoDeath",
 	"short_name": "RunIntoDeath",
-	"start_url": "index.html",
+	"start_url": "https://web.haxorai.com/runintodeath",
 	"display": "fullscreen",
 	"orientation": "landscape",
 	"icons": [{
-		"src": "icon-16.png",
+		"src": "https://cdn.jsdelivr.net/gh/crybypass/deface/RunIntoDeath/icon-16.png",
 		"sizes": "16x16",
 		"type": "image/png"
 	}, {
-		"src": "icon-32.png",
+		"src": "https://cdn.jsdelivr.net/gh/crybypass/deface/RunIntoDeath/icon-32.png",
 		"sizes": "32x32",
 		"type": "image/png"
 	}, {
-		"src": "icon-128.png",
+		"src": "https://cdn.jsdelivr.net/gh/crybypass/deface/RunIntoDeath/icon-128.png",
 		"sizes": "128x128",
 		"type": "image/png"
 	}, {
-		"src": "icon-256.png",
+		"src": "https://cdn.jsdelivr.net/gh/crybypass/deface/RunIntoDeath/icon-256.png",
 		"sizes": "144x144",
 		"type": "image/png"
 	}, {
-		"src": "icon-256.png",
+		"src": "https://cdn.jsdelivr.net/gh/crybypass/deface/RunIntoDeath/icon-256.png",
 		"sizes": "256x256",
 		"type": "image/png"
 	}]
