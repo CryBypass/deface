@@ -1,0 +1,188 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --cloud-color: #ffff;
+    --grid-color: hsl(218, 43%, 27%);
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(
+        hsl(205, 77%, 55%) 50%,
+        hsl(84, 54%, 50%)
+    );
+}
+
+img {
+    max-width: 100%;
+}
+
+.cloud {
+    width: 13em;
+    height: 3.5em;
+    background-color: var(--cloud-color);
+    border-radius: 6em;
+    margin-top: 10%;
+    position: relative;
+    opacity: 0.4;
+    z-index: 10;
+    display: inline-block;
+}
+
+.cloud::before,
+.cloud::after {
+    content: "";
+    position: absolute;
+    background-color: var(--cloud-color);
+    border-radius: 50%;
+}
+
+.cloud::before {
+    width: 4em;
+    height: 4em;
+    top: -2em;
+    left: 1.5em;
+}
+
+.cloud::after {
+    width: 6em;
+    height: 6em;
+    top: -4em;
+    left: 5.25em;
+}
+
+.cloud:first-child {
+    animation: wind 80s linear infinite reverse;
+}
+.cloud:last-child {
+    animation: wind 50s linear infinite reverse;
+}
+
+.wrapper {
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+    z-index: 20;
+}
+
+.land {
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    background-image: linear-gradient(hsl(43, 41%, 52%), hsl(48, 68%, 69%));
+    transform: perspective(60em) rotateX(50deg);
+    bottom: 100px;
+}
+
+.pillars {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pillar {
+    width: 0;
+    height: 25em;
+    border: 30px solid;
+    position: relative;
+    border-bottom: 25em solid #ccc;
+    border-top: 25px solid transparent;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    margin-top: -24em;
+}
+
+.pillar::after {
+    content: "";
+    width: 60px;
+    height: 0;
+    position: absolute;
+    top: 25em;
+    left: -30px;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 50px solid #ccc;
+}
+
+.pillar:first-child {
+    margin-right: 25%;
+}
+
+.floor {
+    width: 100%;
+    height: 30%;
+    position: fixed;
+    bottom: 0;
+    background-image: linear-gradient(
+        hsl(213, 19%, 89%) 30%,
+        var(--grid-color)
+    );
+    transform: perspective(150px) rotateX(50deg);
+}
+
+.grid {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: linear-gradient(
+            var(--grid-color) -0.1em,
+            transparent 0.2em
+        ),
+        linear-gradient(90deg, var(--grid-color) -0.1em, transparent 0.2em);
+    background-size: 5em 2em;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container::after {
+    content: "";
+    width: 250px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: 50px;
+    border-radius: 50%;
+    margin-left: -50px;
+    z-index: 30;
+    animation: shadow 1s infinite alternate;
+}
+
+.img-haxorai {
+    position: absolute;
+    z-index: 30;
+    bottom: 100px;
+    animation: float 1s infinite alternate;
+}
+
+@keyframes wind {
+    from {
+        left: -300px;
+    }
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes float {
+    to {
+        transform: translateY(-30px);
+    }
+}
+
+@keyframes shadow {
+    to {
+        transform: scale(0.6);
+    }
+}
