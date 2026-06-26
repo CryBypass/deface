@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #wrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  #wrapper #kongfu {
+    overflow: visible;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  #wrapper #kongfu .motion {
+    stroke-width: 4px;
+    visibility: hidden;
+  }
+  #wrapper #kongfu .motion#motion1 {
+    visibility: visible;
+  }
