@@ -1,0 +1,171 @@
+body {
+    background-color: #272c30;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0 12px;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+  }
+  
+  ::-moz-selection {
+    background: rgba(18, 176, 229, 0.42);
+  }
+  
+  ::selection {
+    background: rgba(18, 176, 229, 0.42);
+  }
+  
+  .panel {
+    margin: 30px auto;
+    max-width: 1000px;
+    box-shadow: 0 0 24px rgba(18, 176, 229, 0.42);
+    transition: box-shadow 0.4s;
+  }
+  .panel__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: default;
+    padding: 8px 20px;
+    background-color: #12b0e5;
+    border: 1px solid transparent;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.4s;
+  }
+  .panel__heading #demo-btns {
+    flex-shrink: 0;
+  }
+  .panel__heading #demo-btns::before {
+    content: "Demos:";
+    font-size: 0.75em;
+  }
+  .panel__heading #demo-btns .btn {
+    margin-left: 12px;
+    padding: 2px 8px;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #12b0e5;
+    font-size: 0.75em;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: pointer;
+    transition: background-color 0.4s;
+  }
+  .panel__heading #demo-btns .btn:hover {
+    background-color: white;
+  }
+  .panel__error-flag {
+    flex-shrink: 0;
+    opacity: 0;
+    font-size: 0.75em;
+    font-weight: normal;
+    padding-left: 20px;
+    transition: opacity 0.4s;
+  }
+  .panel__error-flag::before {
+    content: "!";
+    display: inline-block;
+    margin-right: 8px;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    background-color: white;
+    color: #ff0050;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5em;
+  }
+  .panel__body {
+    position: relative;
+    padding: 20px;
+    border: 1px solid #12b0e5;
+    color: #ddd;
+    transition: border-color 0.4s;
+  }
+  .panel.error {
+    box-shadow: 0 0 42px #ff0050;
+  }
+  .panel.error .panel__heading {
+    background-color: #ff0050;
+  }
+  .panel.error .panel__error-flag {
+    opacity: 1;
+  }
+  .panel.error .panel__body {
+    border-color: #ff0050;
+  }
+  
+  #editor {
+    color: #ddd;
+    font-size: 1em;
+    font-family: "Roboto Mono", monospace;
+    white-space: pre;
+    -moz-tab-size: 2;
+      -o-tab-size: 2;
+         tab-size: 2;
+    background-color: #272c30;
+    display: block;
+    border: none;
+    outline: none;
+    margin: -20px;
+    padding: 20px;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  
+  #error-output {
+    max-height: 240px;
+    overflow: auto;
+    padding: 6px 12px;
+    background-color: #ff0050;
+    color: white;
+    font-size: 0.75em;
+    transition-property: opacity, max-height, padding, margin;
+    transition-duration: 0.4s;
+    margin-top: 20px;
+  }
+  #error-output p + p {
+    margin-top: 6px;
+  }
+  #error-output:empty {
+    pointer-events: none;
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    max-height: 0;
+    transition: none;
+  }
+  #error-output ::-moz-selection {
+    background: rgba(255, 255, 255, 0.42);
+  }
+  #error-output ::selection {
+    background: rgba(255, 255, 255, 0.42);
+  }
+  
+  #ast-output {
+    color: #ddd;
+    font-size: 1em;
+    font-family: "Roboto Mono", monospace;
+    white-space: pre;
+    -moz-tab-size: 2;
+      -o-tab-size: 2;
+         tab-size: 2;
+    background-color: #272c30;
+  }
+  
+  #app {
+    display: flex;
+  }
+  #app .line-item {
+    border: 1px solid white;
+  }
+  #app .line-item + .line-item {
+    margin-left: -1px;
+  }
