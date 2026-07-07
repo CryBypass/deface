@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "category": "Food",
+    "name": "Chicken Burger",
+    "description": "Crispy chicken burger with fresh vegetables.",
+    "price": 39000,
+    "image": "https://cdn.jsdelivr.net/gh/crybypass/deface/golden-chicken/images/chicken-burger.jpg"
+  },
+  {
+    "id": 2,
+    "category": "Food",
+    "name": "French Fries",
+    "description": "Golden crispy fries served hot.",
+    "price": 18000,
+    "image": "https://cdn.jsdelivr.net/gh/crybypass/deface/golden-chicken/images/french-fries.jpg"
+  },
+  {
+    "id": 3,
+    "category": "Food",
+    "name": "Chicken Bucket",
+    "description": "Crispy chicken bucket for sharing.",
+    "price": 129000,
+    "image": "https://cdn.jsdelivr.net/gh/crybypass/deface/golden-chicken/images/chicken-bucket.jpg"
+  },
+  {
+    "id": 4,
+    "category": "Food",
+    "name": "Spicy Wings",
+    "description": "Spicy chicken wings with bold flavor.",
+    "price": 55000,
+    "image": "https://cdn.jsdelivr.net/gh/crybypass/deface/golden-chicken/images/spicy-wings.jpg"
+  },
+  {
+    "id": 5,
+    "category": "Food",
+    "name": "Crispy Chicken Combo",
+    "description": "Chicken combo with fries and drink.",
+    "price": 69000,
+    "image": "https://cdn.jsdelivr.net/gh/crybypass/deface/golden-chicken/images/crispy-chicken-combo.jpg"
+  },
+  {
+    "id": 6,
+    "category": "Food",
+    "name": "Cheese Chicken Burger",
+    "description": "Chicken burger topped with melted cheese.",
+    "price": 45000,
+    "image": "https://cdn.jsdelivr.net/gh/crybypass/deface/golden-chicken/images/cheese-chicken-burger.jpg"
+  },
+  {
+    "id": 7,
+    "category": "Food",
+    "name": "Hot Chicken Sandwich",
+    "description": "Hot sandwich with crispy chicken.",
+    "price": 47000,
+    "image": "https://cdn.jsdelivr.net/gh/crybypass/deface/golden-chicken/images/hot-chicken-sandwich.jpg"
+  },
+  {
+    "id": 8,
+    "category": "Food",
+    "name": "Chicken Popcorn",
+    "description": "Bite-sized crispy chicken pieces.",
+    "price": 32000,
+    "image": "https://cdn.jsdelivr.net/gh/crybypass/deface/golden-chicken/images/chicken-popcorn.jpg"
+  },
+  {
+    "id": 9,
+    "category": "Food",
+    "name": "Chicken Nuggets",
+    "description": "Golden chicken nuggets with dipping sauce.",
+    "price": 35000,
+    "image": "https://cdn.jsdelivr.net/gh/crybypass/deface/golden-chicken/images/chicken-nuggets.jpg"
+  },
+  {
+    "id": 10,
+    "category": "Food",
+    "name": "Chicken Wrap",
+    "description": "Soft tortilla filled with crispy chicken.",
+    "price": 42000,
+    "image": "https://cdn.jsdelivr.net/gh/crybypass/deface/golden-chicken/images/chicken-wrap.jpg"
+  },
+  {
+    "id": 11,
+    "category": "Food",
+    "name": "Chicken Rice Box",
+    "description": "Rice box with crispy chicken and sauce.",
+    "price": 52000,
+    "image": "https://cdn.jsdelivr.net/gh/crybypass/deface/golden-chicken/images/chicken-rice-box.jpg"
+  },
+  {
+    "id": 12,
+    "category": "Food",
+    "name": "Family Bucket",
+    "description": "Large chicken bucket for the whole family.",
+    "price": 179000,
+    "image": "https://cdn.jsdelivr.net/gh/crybypass/deface/golden-chicken/images/family-bucket.jpg"
+  },
+  {
+    "id": 13,
+    "category": "Drinks",
+    "name": "Iced Lemon Tea",
+    "description": "Refreshing iced tea with fresh lemon.",
+    "price": 15000,
+    "image": "https://cdn.jsdelivr.net/gh/crybypass/deface/golden-chicken/images/iced-lemon-tea.jpg"
+  },
+  {
+    "id": 14,
+    "category": "Drinks",
+    "name": "Fresh Orange Juice",
+    "description": "Freshly squeezed orange juice.",
+    "price": 22000,
+    "image": "https://cdn.jsdelivr.net/gh/crybypass/deface/golden-chicken/images/fresh-orange-juice.jpg"
+  },
+  {
+    "id": 15,
+    "category": "Drinks",
+    "name": "Chocolate Milkshake",
+    "description": "Creamy chocolate milkshake.",
+    "price": 28000,
+    "image": "https://cdn.jsdelivr.net/gh/crybypass/deface/golden-chicken/images/chocolate-milkshake.jpg"
+  },
+  {
+    "id": 16,
+    "category": "Drinks",
+    "name": "Vanilla Milkshake",
+    "description": "Smooth vanilla milkshake.",
+    "price": 28000,
+    "image": "https://cdn.jsdelivr.net/gh/crybypass/deface/golden-chicken/images/vanilla-milkshake.jpg"
+  },
+  {
+    "id": 17,
+    "category": "Drinks",
+    "name": "Iced Coffee Latte",
+    "description": "Chilled coffee latte with fresh milk.",
+    "price": 30000,
+    "image": "https://cdn.jsdelivr.net/gh/crybypass/deface/golden-chicken/images/iced-coffee-latte.jpg"
+  },
+  {
+    "id": 18,
+    "category": "Drinks",
+    "name": "Cappuccino",
+    "description": "Classic cappuccino with rich foam.",
+    "price": 28000,
+    "image": "https://cdn.jsdelivr.net/gh/crybypass/deface/golden-chicken/images/cappuccino.jpg"
+  },
+  {
+    "id": 19,
+    "category": "Drinks",
+    "name": "Strawberry Smoothie",
+    "description": "Fresh strawberry smoothie.",
+    "price": 32000,
+    "image": "https://cdn.jsdelivr.net/gh/crybypass/deface/golden-chicken/images/strawberry-smoothie.jpg"
+  },
+  {
+    "id": 20,
+    "category": "Drinks",
+    "name": "Mineral Water",
+    "description": "Pure bottled mineral water.",
+    "price": 10000,
+    "image": "https://cdn.jsdelivr.net/gh/crybypass/deface/golden-chicken/images/mineral-water.jpg"
+  },
+  {
+    "id": 21,
+    "category": "Drinks",
+    "name": "Mango Smoothie",
+    "description": "Refreshing mango smoothie.",
+    "price": 33000,
+    "image": "https://cdn.jsdelivr.net/gh/crybypass/deface/golden-chicken/images/mango-smoothie.jpg"
+  },
+  {
+    "id": 22,
+    "category": "Drinks",
+    "name": "Green Tea Latte",
+    "description": "Creamy green tea latte.",
+    "price": 29000,
+    "image": "https://cdn.jsdelivr.net/gh/crybypass/deface/golden-chicken/images/green-tea-latte.jpg"
+  },
+  {
+    "id": 23,
+    "category": "Drinks",
+    "name": "Sparkling Lemon Soda",
+    "description": "Sparkling soda with lemon flavor.",
+    "price": 24000,
+    "image": "https://cdn.jsdelivr.net/gh/crybypass/deface/golden-chicken/images/sparkling-lemon-soda.jpg"
+  },
+  {
+    "id": 24,
+    "category": "Drinks",
+    "name": "Berry Fruit Punch",
+    "description": "Mixed berry fruit punch.",
+    "price": 27000,
+    "image": "https://cdn.jsdelivr.net/gh/crybypass/deface/golden-chicken/images/berry-fruit-punch.jpg"
+  }
+]
